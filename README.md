@@ -1,2 +1,67 @@
-# projetovirtualibrary.github.io
-Biblioteca Virtual do IEP Acesso rápido e fácil a livros, artigos e materiais acadêmicos. Tudo online, disponível a qualquer hora, em um só lugar.
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblioteca Simples</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <h1>📚 Biblioteca Online</h1>
+        <nav>
+            <a href="#home" class="nav-link active" onclick="showSection('home')">Início</a>
+            <a href="#books" class="nav-link" onclick="showSection('books')">Livros</a>
+            <a href="#about" class="nav-link" onclick="showSection('about')">Sobre</a>
+        </nav>
+    </header>
+
+    <main>
+        <!-- Seção Início -->
+        <section id="home" class="section active">
+            <div class="search-container">
+                <input type="text" id="searchInput" placeholder="Buscar por título ou autor...">
+                <button onclick="searchBooks()">🔍 Buscar</button>
+            </div>
+
+            <h2>Livros em Destaque</h2>
+            <div class="books-grid" id="featuredBooks">
+                <!-- Livros carregados via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Seção Todos os Livros -->
+        <section id="books" class="section">
+            <h2>Todos os Livros</h2>
+            <div class="books-grid" id="allBooks">
+                <!-- Livros carregados via JavaScript -->
+            </div>
+        </section>
+
+        <!-- Seção Sobre -->
+        <section id="about" class="section">
+            <div class="about-content">
+                <h2>Sobre a Biblioteca</h2>
+                <p>Uma biblioteca digital simples com acesso gratuito a diversos livros clássicos da literatura brasileira e mundial.</p>
+
+                <div class="features">
+                    <div class="feature">
+                        <h3>📖 Acesso Gratuito</h3>
+                        <p>Todos os livros estão disponíveis gratuitamente</p>
+                    </div>
+                    <div class="feature">
+                        <h3>🔍 Busca Fácil</h3>
+                        <p>Encontre rapidamente o livro que procura</p>
+                    </div>
+                    <div class="feature">
+                        <h3>📱 Responsivo</h3>
+                        <p>Funciona em qualquer dispositivo</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

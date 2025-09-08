@@ -47,7 +47,25 @@ const books = [
         author: "José de Alencar",
         image: "https://i.imgur.com/duZtGbJ.png",
         link: "https://drive.google.com/file/d/1gylAtIrMZCRC-8EZcdN4O0M2txEyPkn_/view?usp=sharing"
-    }
+    },
+    {
+        title: "O Jovem Aprendiz No Mercado de Trabalho",
+        author: "Antonia Maria Gimenez, Fernanda Mayra Melo Santos, Luciana Rodrigues da Silva, Fernanda Mendes Caleiro",
+        image: "https://i.imgur.com/mdsi487.png",
+        link: "https://drive.google.com/file/d/1W__xBBIFWae2CWvmZxpoDdiw84OEl_GE/view?usp=sharing"
+    },
+    {
+        title: "O Poder do Hábito",
+        author: "Charles Duhigg",
+        image: "https://i.imgur.com/HB899ck.png",
+        link: "https://drive.google.com/file/d/1gylAtIrMZCRC-8EZcdN4O0M2txEyPkn_/view?usp=sharing"
+    },
+    {
+        title: "Foco",
+        author: "Daniel Goleman",
+        image: "https://i.imgur.com/mYmjsIT.jpeg",
+        link: "https://drive.google.com/file/d/16q-m_l4FctiPK2A79BF6nTxtZsIXLUyH/view?usp=sharing"
+    },
 ];
 
 // Função para criar um card de livro
@@ -150,4 +168,5 @@ document.addEventListener('DOMContentLoaded', function() {
 
     // Configurar busca
     setupSearch();
+
 });

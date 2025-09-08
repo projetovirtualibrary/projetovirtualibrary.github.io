@@ -58,7 +58,7 @@ const books = [
         title: "O Poder do Hábito",
         author: "Charles Duhigg",
         image: "https://i.imgur.com/HB899ck.png",
-        link: "https://drive.google.com/file/d/1gylAtIrMZCRC-8EZcdN4O0M2txEyPkn_/view?usp=sharing"
+        link: "https://drive.google.com/file/d/1eRJ3qcIq78Y5hvihgp-oHdnc284AdcVn/view?usp=sharing"
     },
     {
         title: "Foco",
@@ -170,3 +170,4 @@ document.addEventListener('DOMContentLoaded', function() {
     setupSearch();
 
 });
+
